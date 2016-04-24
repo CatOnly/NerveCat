@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44F3CDB1CC7A79B00EB870F /* loseText.plist in Resources */ = {isa = PBXBuildFile; fileRef = A44F3CDA1CC7A79B00EB870F /* loseText.plist */; };
+		A4642CD71CC5294A00D88DA1 /* AudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4642CD61CC5294A00D88DA1 /* AudioTool.m */; };
+		A4642CDF1CC53C5400D88DA1 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4642CDA1CC53C5400D88DA1 /* BGM.mp3 */; };
+		A4642CE01CC53C5400D88DA1 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4642CDB1CC53C5400D88DA1 /* click.mp3 */; };
+		A4642CE11CC53C5400D88DA1 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4642CDC1CC53C5400D88DA1 /* lose.mp3 */; };
+		A4642CE21CC53C5400D88DA1 /* Replayhold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4642CDD1CC53C5400D88DA1 /* Replayhold.mp3 */; };
+		A4642CE31CC53C5400D88DA1 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4642CDE1CC53C5400D88DA1 /* win.mp3 */; };
+		A4642CEC1CC5BCDC00D88DA1 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4642CEA1CC5BCDC00D88DA1 /* WelcomeView.xib */; };
+		A4642CFB1CC610BF00D88DA1 /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4642CFA1CC610BF00D88DA1 /* WelcomeView.m */; };
+		A4642D021CC669CD00D88DA1 /* WinOrLoseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4642D011CC669CD00D88DA1 /* WinOrLoseVC.m */; };
+		A4642D091CC67B0500D88DA1 /* WinOrLoseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4642D081CC67B0500D88DA1 /* WinOrLoseVC.xib */; };
+		A4642D0C1CC71F9900D88DA1 /* PreferData.m in Sources */ = {isa = PBXBuildFile; fileRef = A4642D0B1CC71F9900D88DA1 /* PreferData.m */; };
+		A4642D0F1CC71FBB00D88DA1 /* SrcData.m in Sources */ = {isa = PBXBuildFile; fileRef = A4642D0E1CC71FBB00D88DA1 /* SrcData.m */; };
+		A4642D121CC736AC00D88DA1 /* SrcData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4642D111CC736AC00D88DA1 /* SrcData.plist */; };
+		A4847B8D1CC13EDD00DA9EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4847B8C1CC13EDD00DA9EF0 /* main.m */; };
+		A4847B901CC13EDD00DA9EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4847B8F1CC13EDD00DA9EF0 /* AppDelegate.m */; };
+		A4847B931CC13EDE00DA9EF0 /* mainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4847B921CC13EDE00DA9EF0 /* mainVC.m */; };
+		A4847B961CC13EDE00DA9EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4847B941CC13EDE00DA9EF0 /* Main.storyboard */; };
+		A4847B981CC13EDE00DA9EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4847B971CC13EDE00DA9EF0 /* Assets.xcassets */; };
+		A4847B9B1CC13EDE00DA9EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4847B991CC13EDE00DA9EF0 /* LaunchScreen.storyboard */; };
+		A4847BA41CC149E600DA9EF0 /* CircleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = A4847BA31CC149E600DA9EF0 /* CircleBtn.m */; };
+		A4847BA71CC2874000DA9EF0 /* CatImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4847BA61CC2874000DA9EF0 /* CatImgView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A44F3CDA1CC7A79B00EB870F /* loseText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = loseText.plist; sourceTree = "<group>"; };
+		A4642CD51CC5294A00D88DA1 /* AudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTool.h; sourceTree = "<group>"; };
+		A4642CD61CC5294A00D88DA1 /* AudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTool.m; sourceTree = "<group>"; };
+		A4642CDA1CC53C5400D88DA1 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BGM.mp3; path = sound/BGM.mp3; sourceTree = "<group>"; };
+		A4642CDB1CC53C5400D88DA1 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click.mp3; path = sound/click.mp3; sourceTree = "<group>"; };
+		A4642CDC1CC53C5400D88DA1 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lose.mp3; path = sound/lose.mp3; sourceTree = "<group>"; };
+		A4642CDD1CC53C5400D88DA1 /* Replayhold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Replayhold.mp3; path = sound/Replayhold.mp3; sourceTree = "<group>"; };
+		A4642CDE1CC53C5400D88DA1 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = sound/win.mp3; sourceTree = "<group>"; };
+		A4642CEA1CC5BCDC00D88DA1 /* WelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		A4642CF91CC610BF00D88DA1 /* WelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
+		A4642CFA1CC610BF00D88DA1 /* WelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
+		A4642D001CC669CD00D88DA1 /* WinOrLoseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinOrLoseVC.h; sourceTree = "<group>"; };
+		A4642D011CC669CD00D88DA1 /* WinOrLoseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinOrLoseVC.m; sourceTree = "<group>"; };
+		A4642D081CC67B0500D88DA1 /* WinOrLoseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinOrLoseVC.xib; sourceTree = "<group>"; };
+		A4642D0A1CC71F9900D88DA1 /* PreferData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferData.h; sourceTree = "<group>"; };
+		A4642D0B1CC71F9900D88DA1 /* PreferData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferData.m; sourceTree = "<group>"; };
+		A4642D0D1CC71FBB00D88DA1 /* SrcData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SrcData.h; sourceTree = "<group>"; };
+		A4642D0E1CC71FBB00D88DA1 /* SrcData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SrcData.m; sourceTree = "<group>"; };
+		A4642D101CC7271A00D88DA1 /* ShareSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareSingleton.h; sourceTree = "<group>"; };
+		A4642D111CC736AC00D88DA1 /* SrcData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SrcData.plist; sourceTree = "<group>"; };
+		A4847B881CC13EDD00DA9EF0 /* NerveCat-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NerveCat-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4847B8C1CC13EDD00DA9EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4847B8E1CC13EDD00DA9EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4847B8F1CC13EDD00DA9EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4847B911CC13EDD00DA9EF0 /* mainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainVC.h; sourceTree = "<group>"; };
+		A4847B921CC13EDE00DA9EF0 /* mainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainVC.m; sourceTree = "<group>"; };
+		A4847B951CC13EDE00DA9EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4847B971CC13EDE00DA9EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4847B9A1CC13EDE00DA9EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4847B9C1CC13EDE00DA9EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4847BA21CC149E500DA9EF0 /* CircleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBtn.h; sourceTree = "<group>"; };
+		A4847BA31CC149E600DA9EF0 /* CircleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBtn.m; sourceTree = "<group>"; };
+		A4847BA51CC2874000DA9EF0 /* CatImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatImgView.h; sourceTree = "<group>"; };
+		A4847BA61CC2874000DA9EF0 /* CatImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatImgView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4847B851CC13EDD00DA9EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4642CE71CC5BC9000D88DA1 /* welcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				A4642CF91CC610BF00D88DA1 /* WelcomeView.h */,
+				A4642CFA1CC610BF00D88DA1 /* WelcomeView.m */,
+				A4642CEA1CC5BCDC00D88DA1 /* WelcomeView.xib */,
+			);
+			name = welcomeView;
+			sourceTree = "<group>";
+		};
+		A4642CEE1CC5BF4700D88DA1 /* winOrLoseView */ = {
+			isa = PBXGroup;
+			children = (
+				A4642D001CC669CD00D88DA1 /* WinOrLoseVC.h */,
+				A4642D011CC669CD00D88DA1 /* WinOrLoseVC.m */,
+				A4642D081CC67B0500D88DA1 /* WinOrLoseVC.xib */,
+				A44F3CDA1CC7A79B00EB870F /* loseText.plist */,
+			);
+			name = winOrLoseView;
+			sourceTree = "<group>";
+		};
+		A4642CF11CC5BFBE00D88DA1 /* gameView */ = {
+			isa = PBXGroup;
+			children = (
+				A4847BA21CC149E500DA9EF0 /* CircleBtn.h */,
+				A4847BA31CC149E600DA9EF0 /* CircleBtn.m */,
+				A4847BA51CC2874000DA9EF0 /* CatImgView.h */,
+				A4847BA61CC2874000DA9EF0 /* CatImgView.m */,
+			);
+			name = gameView;
+			sourceTree = "<group>";
+		};
+		A4847B7F1CC13EDD00DA9EF0 = {
+			isa = PBXGroup;
+			children = (
+				A4847B8A1CC13EDD00DA9EF0 /* NerveCat-Objc */,
+				A4847B891CC13EDD00DA9EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4847B891CC13EDD00DA9EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4847B881CC13EDD00DA9EF0 /* NerveCat-Objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4847B8A1CC13EDD00DA9EF0 /* NerveCat-Objc */ = {
+			isa = PBXGroup;
+			children = (
+				A4847B8E1CC13EDD00DA9EF0 /* AppDelegate.h */,
+				A4847B8F1CC13EDD00DA9EF0 /* AppDelegate.m */,
+				A4642D101CC7271A00D88DA1 /* ShareSingleton.h */,
+				A4847B8C1CC13EDD00DA9EF0 /* main.m */,
+				A4847B941CC13EDE00DA9EF0 /* Main.storyboard */,
+				A4847B991CC13EDE00DA9EF0 /* LaunchScreen.storyboard */,
+				A4642CF11CC5BFBE00D88DA1 /* gameView */,
+				A4642CEE1CC5BF4700D88DA1 /* winOrLoseView */,
+				A4642CE71CC5BC9000D88DA1 /* welcomeView */,
+				A4847BAB1CC2879D00DA9EF0 /* Controller */,
+				A4847BAA1CC2877D00DA9EF0 /* Model */,
+				A4847B8B1CC13EDD00DA9EF0 /* Supporting Files */,
+			);
+			path = "NerveCat-Objc";
+			sourceTree = "<group>";
+		};
+		A4847B8B1CC13EDD00DA9EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4642CDA1CC53C5400D88DA1 /* BGM.mp3 */,
+				A4642CDB1CC53C5400D88DA1 /* click.mp3 */,
+				A4642CDC1CC53C5400D88DA1 /* lose.mp3 */,
+				A4642CDD1CC53C5400D88DA1 /* Replayhold.mp3 */,
+				A4642CDE1CC53C5400D88DA1 /* win.mp3 */,
+				A4847B971CC13EDE00DA9EF0 /* Assets.xcassets */,
+				A4847B9C1CC13EDE00DA9EF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4847BAA1CC2877D00DA9EF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4642D0A1CC71F9900D88DA1 /* PreferData.h */,
+				A4642D0B1CC71F9900D88DA1 /* PreferData.m */,
+				A4642D0D1CC71FBB00D88DA1 /* SrcData.h */,
+				A4642D0E1CC71FBB00D88DA1 /* SrcData.m */,
+				A4642D111CC736AC00D88DA1 /* SrcData.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4847BAB1CC2879D00DA9EF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4847B911CC13EDD00DA9EF0 /* mainVC.h */,
+				A4847B921CC13EDE00DA9EF0 /* mainVC.m */,
+				A4642CD51CC5294A00D88DA1 /* AudioTool.h */,
+				A4642CD61CC5294A00D88DA1 /* AudioTool.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4847B871CC13EDD00DA9EF0 /* NerveCat-Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4847B9F1CC13EDE00DA9EF0 /* Build configuration list for PBXNativeTarget "NerveCat-Objc" */;
+			buildPhases = (
+				A4847B841CC13EDD00DA9EF0 /* Sources */,
+				A4847B851CC13EDD00DA9EF0 /* Frameworks */,
+				A4847B861CC13EDD00DA9EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NerveCat-Objc";
+			productName = "NerveCat-Objc";
+			productReference = A4847B881CC13EDD00DA9EF0 /* NerveCat-Objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4847B801CC13EDD00DA9EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Light;
+				TargetAttributes = {
+					A4847B871CC13EDD00DA9EF0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A4847B831CC13EDD00DA9EF0 /* Build configuration list for PBXProject "NerveCat-Objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4847B7F1CC13EDD00DA9EF0;
+			productRefGroup = A4847B891CC13EDD00DA9EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4847B871CC13EDD00DA9EF0 /* NerveCat-Objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4847B861CC13EDD00DA9EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4642CE01CC53C5400D88DA1 /* click.mp3 in Resources */,
+				A4642CE11CC53C5400D88DA1 /* lose.mp3 in Resources */,
+				A4642CE31CC53C5400D88DA1 /* win.mp3 in Resources */,
+				A4642CEC1CC5BCDC00D88DA1 /* WelcomeView.xib in Resources */,
+				A44F3CDB1CC7A79B00EB870F /* loseText.plist in Resources */,
+				A4847B9B1CC13EDE00DA9EF0 /* LaunchScreen.storyboard in Resources */,
+				A4642CDF1CC53C5400D88DA1 /* BGM.mp3 in Resources */,
+				A4847B981CC13EDE00DA9EF0 /* Assets.xcassets in Resources */,
+				A4642D121CC736AC00D88DA1 /* SrcData.plist in Resources */,
+				A4642D091CC67B0500D88DA1 /* WinOrLoseVC.xib in Resources */,
+				A4642CE21CC53C5400D88DA1 /* Replayhold.mp3 in Resources */,
+				A4847B961CC13EDE00DA9EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4847B841CC13EDD00DA9EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4847BA41CC149E600DA9EF0 /* CircleBtn.m in Sources */,
+				A4642D0C1CC71F9900D88DA1 /* PreferData.m in Sources */,
+				A4847BA71CC2874000DA9EF0 /* CatImgView.m in Sources */,
+				A4642D021CC669CD00D88DA1 /* WinOrLoseVC.m in Sources */,
+				A4642CFB1CC610BF00D88DA1 /* WelcomeView.m in Sources */,
+				A4642D0F1CC71FBB00D88DA1 /* SrcData.m in Sources */,
+				A4847B931CC13EDE00DA9EF0 /* mainVC.m in Sources */,
+				A4847B901CC13EDD00DA9EF0 /* AppDelegate.m in Sources */,
+				A4642CD71CC5294A00D88DA1 /* AudioTool.m in Sources */,
+				A4847B8D1CC13EDD00DA9EF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4847B941CC13EDE00DA9EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4847B951CC13EDE00DA9EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4847B991CC13EDE00DA9EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4847B9A1CC13EDE00DA9EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4847B9D1CC13EDE00DA9EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4847B9E1CC13EDE00DA9EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4847BA01CC13EDE00DA9EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NerveCat-Objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CatOnly.NerveCat-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4847BA11CC13EDE00DA9EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NerveCat-Objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CatOnly.NerveCat-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4847B831CC13EDD00DA9EF0 /* Build configuration list for PBXProject "NerveCat-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4847B9D1CC13EDE00DA9EF0 /* Debug */,
+				A4847B9E1CC13EDE00DA9EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4847B9F1CC13EDE00DA9EF0 /* Build configuration list for PBXNativeTarget "NerveCat-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4847BA01CC13EDE00DA9EF0 /* Debug */,
+				A4847BA11CC13EDE00DA9EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4847B801CC13EDD00DA9EF0 /* Project object */;
+}

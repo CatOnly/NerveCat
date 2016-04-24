@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="h12-3k-eZx" userLabel="Welcome" customClass="WelcomeView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="dXF-XG-m63" userLabel="title">
+                    <rect key="frame" x="20" y="70" width="335" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="Bt3-AF-gvc"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dXF-XG-m63" firstAttribute="top" secondItem="h12-3k-eZx" secondAttribute="top" constant="70" id="LJJ-Yx-I4A"/>
+                <constraint firstAttribute="trailing" secondItem="dXF-XG-m63" secondAttribute="trailing" constant="20" id="P0O-eW-9Dl"/>
+                <constraint firstItem="dXF-XG-m63" firstAttribute="leading" secondItem="h12-3k-eZx" secondAttribute="leading" constant="20" id="Rfp-ae-Wv0"/>
+                <constraint firstItem="dXF-XG-m63" firstAttribute="centerX" secondItem="h12-3k-eZx" secondAttribute="centerX" id="SJt-8t-Q8I"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="title" width="400" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>imgBoardLose</key>
+	<string>failed</string>
+	<key>imgBoardWin</key>
+	<string>victory</string>
+	<key>imgCatAngry</key>
+	<string>angryCat</string>
+	<key>imgCatDefault</key>
+	<string>normalCat</string>
+	<key>imgCatRight</key>
+	<string>rightCat</string>
+	<key>imgCatLeft</key>
+	<string>leftCat</string>
+	<key>imgBtnPause</key>
+	<string>pause</string>
+	<key>imgBtnPlay</key>
+	<string>play</string>
+	<key>imgBtnStart</key>
+	<string>start</string>
+	<key>soundLose</key>
+	<string>lose.mp3</string>
+	<key>soundWin</key>
+	<string>win.mp3</string>
+	<key>soundClick</key>
+	<string>click.mp3</string>
+	<key>soundTap</key>
+	<string>Replayhold.mp3</string>
+	<key>soundBGM</key>
+	<string>BGM.mp3</string>
+</dict>
+</plist>
