@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”user-scalable=yes, initial-scale=1.0, maximum-scale=2.5, minimun-scale=1.0”/>
+    <title>抓住神经猫</title>
+</head>
+<style type="text/css">
+    canvas{
+        background-color: #666;
+    }
+	.gameArea{
+        float: left;
+        width: 590px;
+	}
+    .testArea{
+        float: left;
+        width: auto;
+    }
+
+    h2{
+        color: red;
+        font-size: 35px;
+        margin: 0px 20px;
+    }
+    p{
+        margin: 0;
+    }
+    button{
+        font-size: 25px;
+        border: none;
+        margin: 5px;
+        width: 60px;
+        height: 60px;
+    }
+	#testInfro{
+		width: 750px;
+		height: 750px;
+		font-size: 22px;
+		overflow-x: scroll;
+	}
+    .tSelectBtn{
+        background-color: #FF754F;
+    }
+    .tCatBtn{
+        background-color: #4CC2FB;
+    }
+</style>
+<!--
+Youth is not a time of life，it is a state of mind
+青春不是年华，而是心境
+
+在怎么找也找不到了 = =+
+Author： CatOnly
+-->
+<body>
+	<div class="gameArea">
+	    <canvas width="565" height="790" id="theStage"></canvas>
+	</div>
+	<div id="testArea" style="visibility:hidden">
+		<h2>READ_ONLY TEST_Report</h2>
+		<p id="testInfro"></p>
+		<audio id="replayhold" src="./sound/Replayhold.mp3" hidden="true"></audio>
+		<audio id="click" src="./sound/click.mp3" hidden="true"></audio>
+		<audio id="win" src="./sound/win.mp3" hidden="true"></audio>
+		<audio id="lose" src="./sound/lose.mp3" hidden="true"></audio>
+		<audio id="bgm" src="./sound/BGM.mp3" autoplay="autoplay" loop="loop" hidden="true"></audio>
+	</div>
+</body>
+<script src="./js/easeljs-0.7.1.min.js" type="text/javascript"></script>
+<script src="./js/coreClass.js" type="text/javascript"></script>
+<script src="./js/core.js" type="text/javascript"></script>
+</html>
