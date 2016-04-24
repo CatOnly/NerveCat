@@ -2,8 +2,8 @@
 //  ShareSingleton.h
 //  NerveCat-Objc
 //
-//  Created by Light on 4-20.
-//  Copyright © 2016年 Light. All rights reserved.
+//  Created by Light on 12-20.
+//  Copyright © 2015年 Light. All rights reserved.
 //
 
 

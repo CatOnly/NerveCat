@@ -16,5 +16,10 @@
 ##游戏界面
 Object—C 版本游戏截图
 
-JavaScript 版本连接
+![c0](./Others/c0.png) 
+![c1](./Others/c1.png)
+![c3](./Others/c3.png)
+![c4](./Others/c4.png)
+![c5](./Others/c5.png)
 
+[JavaScript 版本 演示连接](http://219.218.160.81/cat/v2.0.html)
