@@ -210,8 +210,7 @@
 - (void)updatePathOrCostForCircles:(NSMutableArray *)circles{
     if (self.cat.isEnclose){
         [mainVC updateCostForCircles:circles];
-        
-        // 测试代码
+#warning test code
 //        [mainVC testCostValueFromCircles:circles];
     }else{
         // 执行两遍结果跟准确
@@ -390,7 +389,7 @@
 + (void)testDistanceValueFromCircles:(NSArray *)circles{
     for (NSMutableArray *a in circles) {
         for (CircleBtn *c in a) {
-            NSString *s = [NSString stringWithFormat:@"%ld",c.distance];
+            NSString *s = [NSString stringWithFormat:@"%ld",(long)c.distance];
             [c setTitle:s forState:UIControlStateNormal];
         }
     }
@@ -398,7 +397,7 @@
 + (void)testCostValueFromCircles:(NSArray *)circles{
     for (NSMutableArray *a in circles) {
         for (CircleBtn *c in a) {
-            NSString *s = [NSString stringWithFormat:@"%ld",c.cost];
+            NSString *s = [NSString stringWithFormat:@"%ld",(long)c.cost];
             [c setTitle:s forState:UIControlStateNormal];
         }
     }

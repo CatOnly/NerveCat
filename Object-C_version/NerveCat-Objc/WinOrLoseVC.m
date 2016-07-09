@@ -36,7 +36,7 @@
     if (self.isPlayerWin) {
         self.winBoard.hidden = NO;
         self.winLabel.hidden = NO;
-        self.winLabel.text = [NSString stringWithFormat:@"本次成绩 %ld 步\n最高成绩 %ld 步",self.currentScore,self.highScore];
+        self.winLabel.text = [NSString stringWithFormat:@"本次成绩 %ld 步\n最高成绩 %ld 步",(long)self.currentScore,(long)self.highScore];
         
         self.loseBoard.hidden = YES;
         self.loseLabel.hidden = YES;

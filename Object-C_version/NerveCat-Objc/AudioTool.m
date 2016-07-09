@@ -62,7 +62,7 @@ static NSMutableDictionary *_players;
         NSURL *fileUrl = [[NSBundle mainBundle] URLForResource:musicName withExtension:nil];
         
         if (fileUrl == nil){
-            NSLog(@"%s 文件路径获取失败, 播放音乐名:%@, 循环次数:%ld",__func__, musicName, loopNum);
+            NSLog(@"%s 文件路径获取失败, 播放音乐名:%@, 循环次数:%ld",__func__, musicName, (long)loopNum);
             return;
         }
         

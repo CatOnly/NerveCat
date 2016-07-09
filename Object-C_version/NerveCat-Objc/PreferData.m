@@ -52,7 +52,7 @@
 
 
 - (NSString *)curScoreText{
-    return [NSString stringWithFormat:@"已走 %ld %@", _curScore, @"步"];
+    return [NSString stringWithFormat:@"已走 %ld %@", (long)_curScore, @"步"];
 }
 
 @end
