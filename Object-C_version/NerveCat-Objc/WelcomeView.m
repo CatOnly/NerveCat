@@ -26,7 +26,7 @@
 @property (assign, nonatomic) CGFloat rightPosition;
 @property (strong, nonatomic) NSString *curImgName;
 
-/** 欢迎动画猫对象 */
+/** 欢迎动画对象 */
 @property (nonatomic,strong) CADisplayLink *link;
 @end
 @implementation WelcomeView
@@ -82,9 +82,12 @@
     [self setNeedsDisplay];
 }
 
-- (void)dealloc{
+- (void)releaseWelcomeViewCat {
     [self.link removeFromRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
     self.link = nil;
+}
+
+- (void)dealloc{
     NSLog(@"WelcomeView Dead!");
 }
 @end

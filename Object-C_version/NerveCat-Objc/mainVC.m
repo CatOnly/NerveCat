@@ -332,9 +332,10 @@
     anim.type = @"push";
     anim.subtype = kCATransitionFromLeft;
     anim.duration = 0.5;
-    [self.view.layer addAnimation:anim forKey:@"startGame"];
+    [self.view.layer addAnimation:anim forKey:nil];
 
     // 移除欢迎界面
+    [self.welcomeView releaseWelcomeViewCat];
     [self.welcomeView removeFromSuperview];
     self.welcomeView = nil;
     
@@ -347,7 +348,6 @@
     [self updateView];
     
     [AudioTool playMusicWithMusicName:self.source.soundTap loopNum:0];
-    [self.view.layer removeAnimationForKey:@"startGame"];
 }
 
 #pragma mark - 输赢窗口管理

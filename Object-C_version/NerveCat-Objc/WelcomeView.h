@@ -11,5 +11,5 @@
 @interface WelcomeView : UIView
 
 + (instancetype)welcomeView;
-
+- (void)releaseWelcomeViewCat;
 @end

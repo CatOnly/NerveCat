@@ -109,7 +109,7 @@ static int i = 0;
 }
 
 - (void)updateImage {
-    if (i > 15) {
+    if (i >= self.angryCats.count) {
         i = 0;
     }
     
