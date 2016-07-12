@@ -26,6 +26,8 @@
 @property (assign, nonatomic) CGFloat rightPosition;
 @property (strong, nonatomic) NSString *curImgName;
 
+/** 欢迎动画猫对象 */
+@property (nonatomic,strong) CADisplayLink *link;
 @end
 @implementation WelcomeView
 
@@ -71,9 +73,9 @@
     self.curY = (viewHeight - _catHeight) * 0.5;
     self.curImgName = self.source.imgCatLeft;
     
-    // 加入 runloop 这个类将会一直不会被销毁
-    CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateCatPosition)];
-    [link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+    // 加入 runloop 这个类将会一直不会被销毁「不移除的话」
+    self.link = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateCatPosition)];
+    [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
 }
 
 - (void)updateCatPosition{
@@ -81,6 +83,8 @@
 }
 
 - (void)dealloc{
+    [self.link removeFromRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+    self.link = nil;
     NSLog(@"WelcomeView Dead!");
 }
 @end

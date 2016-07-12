@@ -21,6 +21,8 @@ static int i = 0;
 @property (assign, nonatomic) CGFloat xOffset;
 @property (assign, nonatomic) CGFloat yOffset;
 
+/** 猫动的动画 */
+@property (nonatomic,strong) CADisplayLink *link;
 @end
 
 @implementation CatImgView
@@ -95,10 +97,10 @@ static int i = 0;
     }
     // 添加动画：小图片数组轮番显示
     // 方法1 屏幕刷星的时候会调用「屏幕 1s刷新 60次」
-    CADisplayLink *link = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateImage)];
-    link.frameInterval = 3;
+    self.link = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateImage)];
+    self.link.frameInterval = 3;
     // 添加到主运行循环
-    [link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+    [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
     
     // 方法2
     //    [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(updateImage) userInfo:nil repeats:YES];
@@ -187,4 +189,8 @@ static int i = 0;
     return count == 6 ? YES : NO;
 }
 
+- (void)dealloc{
+    [self.link removeFromRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+    self.link = nil;
+}
 @end
